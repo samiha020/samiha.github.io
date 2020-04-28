@@ -1,50 +1,42 @@
-html , body { 
-    height: 100%;
-    width: 100%;
-    background: url(media/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
-
-.buffer{
-    height: 30px;
+.head{
+    display: flex;
+    font-family:blackadder itc;
+    justify-content: center;
 }
 
-
-h1{
-     font-size: 30px;
-     text-align: center;
-     color: blueviolet;
+.headtext{
+    width: 300px;
+    text-align: center;
+    transition: all 1s;
+}
+.headtext:hover{
+    border-bottom: 5px dotted black;
+    transform: scale(1.1);    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.text-center{
-    color: blue;
+.same{
+    height: 200px;
+    width: 200px;
+    border: 3px solid aquamarine;
+    background-color: cadetblue;
+    margin-bottom: 40px;
+    border-radius: 40%;
+    box-shadow: 30px 30px 30px red;
+    transition: all 2s;
 }
 
-hr{
-    border: 2px solid black;
-    width: 100px;
+.same:hover{
+    transform: scale(1.1);
 }
 
 p{
     text-align: center;
-    color: blue;
+    margin-top: 40%;
+    font-family: monospace;
 }
 
-.dsa{
-    border: 2px solid black;
-    width: 200px;
-
-}
-
-h2{
-    text-align: center;
-    color: blueviolet;
-}
-
-.qsq{
-     text-align: center;
- } 
